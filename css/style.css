@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    padding: 20px;
+}
+
+.titulo{
+    background-color: #00669F;
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+
+}
+
+
+/* ##### Batman ##### */
+
+.batman{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 600px;
+}
+
+.batman .fondo-batman{
+    position: absolute;
+}
+
+.batman .corazon{
+    position: relative;
+    left: -100px;
+    bottom: 70px;
+}
+
+.batman .cara-batman{
+    position: relative;
+    border-radius: 100%;
+    top: 100px;
+    left: 85px;
+}
+
+.batman h2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    box-shadow: 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.batman p{
+    position: relative;
+    top: 74px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.batman button{
+    color: white;
+    background-color: #00669F;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    padding: 20px;
+    border: none
+}
+
+
+/* ##### Harley Quinn ##### */
+
+.harley{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 600px;
+}
+
+.harley .fondo-harley{
+    position: absolute;
+}
+
+.harley .corazon{
+    position: relative;
+    left: -100px;
+    bottom: 70px;
+}
+
+.harley .cara-harley{
+    position: relative;
+    border-radius: 100%;
+    top: 100px;
+    left: 85px;
+}
+
+.harley h2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    box-shadow: 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.harley p{
+    padding: 20px;
+    position: relative;
+    top: 74px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.harley button{
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    background-color: #00669F;
+    padding: 20px;
+    border: none
+}
+
+
+/* ##### Footer ##### */
+
+footer{
+    background-color: #00669F;
+    margin: 150px 0px 0px 0px;
+}
+
+footer p{
+    color: white;
+    margin: 0;
+    padding: 25px;
+}
+
+/* Links de los botones  */
+button a{
+    text-decoration: none;
+    color: white;
+}
